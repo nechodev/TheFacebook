@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conect with your friends">
+    <meta name="robots" content="index, follow">
+    <link href="\assets\css\styles.css" rel="stylesheet">
+    <title>Register on TheFacebook</title>
+</head>
+
+<body>
+    <div class="body-container">
+
+        <header class="header">
+            <div class="header__nav-wrapper">
+                <nav>
+                    <ul class="nav-top">
+                        <li class="nav-top nav-top-element"><a href="./index.html">home</a></li>
+                        <li class="nav-top nav-top-element"><a class="loginButtom" href="\login.html">login</a></li>
+                        <li class="nav-top nav-top-element"><a class="registerButtom" href="\register.html">register</a>
+                        </li>
+                        <li class="nav-top nav-top-element"><a class="aboutButtom" href="\about.html">about</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="side-bar">
+            <div class="login-area">
+                <form action="">
+                    <div>
+                        <fieldset>
+                            <div class="email-wrapper">
+                                <label for="email">
+                                    <span>Email</span>
+                                    <input type="email" id="email" name="email" placeholder="Email or phone number"
+                                        required>
+                                </label>
+                            </div>
+                            <div class="password-wrapper">
+                                <label for="password">
+                                    <span>Password</span>
+                                    <input type="password" id="password" name="password" placeholder="Password"
+                                        required>
+                                </label>
+                            </div>
+                            <button type="submit">login</button>
+                            <div class="side-bar__login-area-register">
+                                <a href="#"> <button>register</button></a>
+                            </div>
+                        </fieldset>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <main>
+            <div>
+                <p>Login to Thefacebook!</p>
+                <h1>[ Login ]</h1>
+                <form>
+                    <label for="name">
+                        <span>Name:</span>
+                        <input type="text" name="name" id="name">
+                    </label>
+                    <select name="status" id="">
+                        <option selected>Choose an option</option>
+                        <option value="student">Student</option>
+                        <option value="alumnus-alumna">Alumnus/Alumna</option>
+                        <option value="faculty">Faculty</option>
+                        <option value="staff">Staff</option>
+                    </select>
+                    <label for="email">
+                        <span>Email:</span>
+                        <input type="email" name="email" id="email">
+                    </label>
+                    <label for="password">
+                        <span>Password:</span>
+                        <input type="password" name="password" id="password">
+                    </label>
+                    <a><button type="button">Register</button></a>
+                </form>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__nav-wrapper">
+                <nav class="footer__nav-bottom">
+                    <ul class="footer__nav-bottom nav-bottom">
+                        <li class="footer__nav-bottom nav-bottom-element"><a href="\about.html" target="_self">about</a>
+                        </li>
+                        <li class="footer__nav-bottom nav-bottom-element"><a href="\contact.html"
+                                target="_self">contact</a></li>
+                        <li class="footer__nav-bottom nav-bottom-element"><a href="\faq.html" target="_self">faq</a>
+                        </li>
+                        <li class="footer__nav-bottom nav-bottom-element"><a href="\terms.html" target="_self">terms</a>
+                        </li>
+                        <li class="footer__nav-bottom nav-bottom-element"><a href="\privacy.html"
+                                target="_self">privacy</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="footer__text">A Nechodev production</p>
+                <p class="footer__text">TheFacebook 2.0 © 2023</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* .header-wrapper {
+  height: 88px;
+  width: 873px;
+  margin: 0;
+  border-bottom: 1px solid #3b5998;
+} */
+
+.login-area {
+  width: 150px;
+  padding-bottom: 50px;
+  border-radius: 100px;
+}
+
+.header__nav-wrapper {
+  background-image: url("/assets/images/banner.jpg");
+  background-size: cover;
+  width: 873px;
+  height: 88px;
+  border-bottom: 1px solid #3b5998;
+}
+
+.nav-top {
+  list-style: none;
+  padding-left: 445px;
+  padding-top: 67px;
+  margin: 0px;
+}
+
+.nav-top-element {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-top-element a {
+  /* Esto modifica el anchor <a> element dentro de la barra de navegación */
+  text-decoration: none; /* This removes the underlined of the <a> element */
+  color: white; /* This gives the anchor element's text inside the nav-top, the white color, so it will work with the pseudo-elements below */
+}
+
+.nav-top-element a:hover {
+  color: #528ce3;
+}
+
+.nav-top-element a:active {
+  color: #528ce3; /* Modifies the color while clicking the element. */
+}
+
+.footer__nav-wrapper {
+  text-align: center;
+}
+
+.nav-bottom {
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-bottom-element {
+  display: inline-block;
+}
+
+.nav-bottom-element a {
+  text-decoration: none;
+  color: #337eff;
+}
+
+.nav-bottom-element a:hover {
+  color: #337eff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__text {
+  text-align: center;
+}
